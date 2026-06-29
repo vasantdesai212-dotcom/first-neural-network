@@ -105,6 +105,13 @@ Actual Digit    : 7
 
 ---
 
+
+## 📈 Training Output
+
+![Training Output](images/training_output.png)
+
+---
+
 ## 🛠️ Installation
 
 Clone the repository:

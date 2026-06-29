@@ -1,3 +1,14 @@
+"""
+First Neural Network
+
+A simple feedforward neural network built using TensorFlow and Keras
+to classify handwritten digits from the MNIST dataset.
+
+Author: Vasant Desai
+GitHub: https://github.com/vasantdesai212-dotcom
+
+Test Accuracy: 97.58%
+"""
 import tensorflow as tf
 from tensorflow import keras
 (x_train, y_train), (x_test, y_test) = keras.datasets.mnist.load_data() #Here, x-train means the photos or the images on which the data is being trained, and y is the exact output or the answer of that image. In the same manner, there is x-test and y-test for the testing data. 
@@ -29,4 +40,4 @@ print("predicted digit: ", predicted_num)
 print("actual digit: ", y_test[0])
 
 plt.imshow(x_test[0], cmap='grey') #Here, the imshows and is helpful to preview the image. The image of X-train on index zero, and the cmap means the colour map, and that is grayscale. 
-plt.show
+plt.show()
